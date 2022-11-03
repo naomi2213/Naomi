@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Tugas TIK 03 November 2022</title>
+</head>
+<body>
+    <button type="button" onclick="TurnOn()">Turn On The Light</button>
+    <img id="Light" src="https://img2.pngdownload.id/20180421/gsw/kisspng-in-order-to-succeed-your-desire-for-success-shoul-blinking-clipart-5adb0523241d85.7964616015243031391479.jpg" height="200" width="250">
+    <button type="button" onclick="TurnOff()">Turn Off The Light</button>
+
+    <script>
+        var image = document.getElementById("Light")
+        function TurnOn(){
+            image.src="https://img2.pngdownload.id/20180421/gsw/kisspng-in-order-to-succeed-your-desire-for-success-shoul-blinking-clipart-5adb0523241d85.7964616015243031391479.jpg" 
+        }
+        function TurnOff(){
+            image.src="https://w7.pngwing.com/pngs/812/392/png-transparent-white-bulb-incandescent-light-bulb-lighting-icon-bulb-off-light-fixture-electronics-image-file-formats.png"
+        }
+
+    </script>
+</body>
+</html>
